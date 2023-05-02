@@ -12,11 +12,12 @@ import { MatSelectModule } from '@angular/material/select';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
-import { HomeComponent } from './component/home/home.component';
+import { HomeComponent } from './components/home/home.component';
 import { FormsModule } from '@angular/forms';
+import { DetailsComponent } from './components/details/details.component';
 
 @NgModule({
-  declarations: [AppComponent, SearchBarComponent, HomeComponent],
+  declarations: [AppComponent, SearchBarComponent, HomeComponent, DetailsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
